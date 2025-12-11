@@ -1,0 +1,64 @@
+# Build outputs
+build/
+debug/
+release/
+*.exe
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+
+# Qt specific
+*.pro.user
+*.qmake.stash
+*.qm
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+*.qrc.depends
+Makefile*
+*.autosave
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Model files (too large for git)
+server/model/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
