@@ -1,7 +1,4 @@
 # Build outputs
-build/
-debug/
-release/
 *.exe
 *.o
 *.obj
@@ -10,17 +7,17 @@ release/
 *.a
 *.lib
 
-# Qt specific
+# Qt build files
 *.pro.user
 *.qmake.stash
-*.qm
-moc_*.cpp
-moc_*.h
-ui_*.h
-qrc_*.cpp
-*.qrc.depends
 Makefile*
-*.autosave
+build/
+debug/
+release/
+ui_*.h
+moc_*.cpp
+qrc_*.cpp
+*.qm
 
 # Database files
 *.db
@@ -33,15 +30,13 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
 venv/
-ENV/
-.venv
+env/
 
 # Model files (too large for git)
 server/model/
-*.safetensors
 *.bin
+*.safetensors
 *.pt
 *.pth
 
@@ -55,10 +50,4 @@ server/model/
 # OS
 .DS_Store
 Thumbs.db
-desktop.ini
-
-# Temporary files
-*.tmp
-*.log
-*.bak
 
